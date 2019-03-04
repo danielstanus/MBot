@@ -436,9 +436,9 @@ function processReply(message){
 		if(temporalLobe.register.length>=2){
 			var reg = temporalLobe.register
 			var asoc_analyze = analyzeAsoc([reg[reg.length-2], reg[reg.length-1]])
-			asoc_analyze = asoc_analyze?asoc_analyze.split("-"):false
 			if(asoc_analyze){
 				temporalLobe.register.push(asoc_analyze)
+				asoc_analyze = asoc_analyze?asoc_analyze.split("-"):false
 				reply.push(returnAnswer(asoc_analyze[1], asoc_analyze[0]))
 			}
 		}
