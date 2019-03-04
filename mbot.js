@@ -12,7 +12,7 @@ gadgetConversacion.innerHTML+="<div id='caja-conteiner'>"+
 
 var maxMessageBox = 10
 var responseDelayTime = toMilliseconds(1.5)
-var mutedTime = toMilliseconds(2)
+var mutedTime = toMilliseconds(30)
 
 var userInputBox = document.getElementById('userInput')
 userInputBox.onfocus = function(){
