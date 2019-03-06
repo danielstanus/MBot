@@ -122,7 +122,7 @@ var MBOT_DB = {
 			"respuesta-creacional":["Me creo srbill90","Nací en netixzen"],
 			
 			"pregunta-codigo":["codigo fuente","muestrame tu codigo fuente","Puedo ver tu codigo fuente?", "donde esta tu codigo fuente?", "como es tu codigo?","tu codigo", "tu codigo fuente"],
-			"respuesta-codigo":["aca puedes ver mi codigo fuente https://github.com/srbill1996/MBot","acá https://github.com/srbill1996/MBot", "aquí https://github.com/srbill1996/MBot"],
+			"respuesta-codigo":["aca puedes ver mi codigo fuente <a>https://github.com/srbill1996/MBot</a>","acá <a>https://github.com/srbill1996/MBot</a>", "aquí https://github.com/srbill1996/MBot"],
 			
 			"pregunta-version":["en que version estas?","que version andas?","que version eres?"],
 			"respuesta-version":["0.4","ni idea","no lo se"],

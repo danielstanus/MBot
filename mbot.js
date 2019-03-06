@@ -14,6 +14,7 @@ var responseDelayTime = toMilliseconds(1.5)
 var mutedTime = toMilliseconds(30)
 
 var userInputBox = document.getElementById('userInput')
+var lastUserTextWrite = ''
 var messageBox = document.getElementById('messageBox')
 var typingNotification = document.getElementById('typingNotification')
 
@@ -56,10 +57,18 @@ userInputBox.onfocus = function() {
 userInputBox.addEventListener('keyup', function(event) {
     event.preventDefault()
     if (event.keyCode === 13) {
+        lastUserTextWrite = userInputBox.value
         reply(userInputBox.value)
         userInputBox.value = ''
     }
+    if (event.keyCode == 38) {
+        userInputBox.value = lastUserTextWrite
+    }
+    if (event.keyCode == 40) {
+        userInputBox.value = ''
+    }
 })
+
 
 String.prototype.format = function() {
     var formatted = this
