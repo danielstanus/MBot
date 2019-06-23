@@ -195,7 +195,7 @@ var MBOT_DB = {
 			//misc functions
 			"respuesta-afirmacion de accion":["Ahi lo hago","listo!","Ahi va"],
 			"inactividad-silencio":["*silencio*"],
-			"respuesta-silencio":["Acaso no vas a hablar?", "Hey", "Humano?"],
+			"respuesta-silencio":["Bu!", "Abre el panel derecho, aqui estoy!", "Hay alguien ahí?","Hey, Hola!, aquí a la derecha!"],
 			"respuesta-desconocido":["No te pases de listo muchacho.",
 									"No entiendo que quieres decirme",
 									"Ehmm",
