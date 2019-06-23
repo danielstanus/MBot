@@ -11,7 +11,7 @@ gadgetConversacion.innerHTML +=
 
 var maxMessageBox = 10
 var responseDelayTime = toMilliseconds(1.5)
-var mutedTime = toMilliseconds(30)
+var mutedTime = toMilliseconds(160)
 
 var userInputBox = document.getElementById('userInput')
 var lastUserTextWrite = ''
